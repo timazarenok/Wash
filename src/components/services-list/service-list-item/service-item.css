@@ -1,0 +1,6 @@
+.block { 
+  width: 250px;
+  height: 150px;
+  box-shadow: 0px 0px 12px 0.8px #ffe648;
+  border-radius: 15px;
+}

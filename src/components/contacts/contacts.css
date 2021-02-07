@@ -1,0 +1,20 @@
+.contacts {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 10%;
+  margin-top: 30px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contacts-header {
+  color: #ffe648;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.geo, .tel, .tg {
+  margin: 10px;
+  display: inline-block;
+}

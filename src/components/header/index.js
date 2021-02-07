@@ -1,17 +1,30 @@
 import React from 'react'
-import { animateScroll as scroll  } from 'react-scroll'
+import HeaderItems from './header-items'
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './header.css'
 
+const Mobile = ({children}) => (
+    <span className="mobile">
+        {children}
+    </span> 
+) 
+
+const Desktop = ({children}) => (
+    <span className="desktop">
+        {children}
+    </span> 
+) 
 
 const Header = () => (
-    <ul>
-        <li onClick={() => scroll.scrollToTop}>Главная</li>
-        <li>Перечень услуг</li>
-        <li>Собрать свою услугу</li>
-        <li>О нас</li>
-        <li>Контакты</li>
-    </ul>
+    <>
+        <Desktop>
+            <HeaderItems/>
+        </Desktop>
+        <Mobile>
+            <h1>Mobile</h1>
+        </Mobile>
+    </>
 )
 
 export default Header;

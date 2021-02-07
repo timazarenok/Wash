@@ -1,0 +1,27 @@
+.service-list {
+  position: relative;
+  list-style: none;
+  width: 1200px;
+  left: 19%;
+  margin: 0px;
+}
+
+.service-list li {
+  display: inline-block;
+  margin: 50px;
+  text-align: center;
+  background-color:  rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  color: #ffe648;
+}
+
+.header {
+  color: #ffe648;
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,14 @@
+.price {
+  padding: 10px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.price-block {
+  margin: 0px 10px 10px 10px;
+  text-align: center;
+}
+
+.type {
+  color: white;
+}

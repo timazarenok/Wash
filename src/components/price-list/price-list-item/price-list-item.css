@@ -1,0 +1,65 @@
+.prices {
+  position: relative;
+  list-style: none;
+  display: inline;
+  float: right;
+  left: 30%;
+  color: #ffe648;
+}
+
+.prices li {
+  display: inline-block;
+}
+
+.item {
+  display: inline-block;
+  width: 900px;
+  height: 150px;
+}
+
+.service-description {
+  display: block;
+  width: 600px;
+  font-size: 18px;
+  color: #ffe648;
+}
+
+.name {
+  display: inline-block;
+  width: 300px;
+  color: white;
+}
+
+@media(max-width: 1100px) {
+  .prices {
+    position: relative;
+    list-style: none;
+    display: inline;
+    float: right;
+    left: 0%;
+    color: #ffe648;
+  }
+  
+  .prices li {
+    display: inline-block;
+  }
+  
+  .item {
+    display: inline-block;
+    width: 900px;
+    height: 150px;
+  }
+  
+  .service-description {
+    display: block;
+    width: 300px;
+    font-size: 18px;
+    color: #ffe648;
+  }
+  
+  .name {
+    display: inline-block;
+    width: 300px;
+    color: white;
+  }
+}
