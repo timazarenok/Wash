@@ -1,7 +1,6 @@
 .price {
   padding: 10px;
   text-align: center;
-  font-size: 27px;
 }
 
 .price-block {
@@ -11,4 +10,26 @@
 
 .type {
   color: white;
+}
+
+@media(max-width: 975px) {
+  .price {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .price-block {
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+  }
+  
+  .type {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 750px) {
+  
 }

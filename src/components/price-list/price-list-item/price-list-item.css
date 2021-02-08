@@ -5,6 +5,7 @@
   float: right;
   left: 30%;
   color: #ffe648;
+  padding: 0;
 }
 
 .prices li {
@@ -30,36 +31,70 @@
   color: white;
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 1250px) {
   .prices {
-    position: relative;
-    list-style: none;
-    display: inline;
-    float: right;
     left: 0%;
-    color: #ffe648;
-  }
-  
-  .prices li {
-    display: inline-block;
-  }
-  
-  .item {
-    display: inline-block;
-    width: 900px;
-    height: 150px;
   }
   
   .service-description {
-    display: block;
     width: 300px;
-    font-size: 18px;
-    color: #ffe648;
+  }
+}
+
+@media(max-width: 975px) {
+  .item {
+    width: 690px;
+    height: 100px;
+  }
+  
+  .service-description {
+    width: 200px;
+    font-size: 13px;
   }
   
   .name {
-    display: inline-block;
     width: 300px;
-    color: white;
+    font-size: 20px;
   }
+}
+
+@media (min-width: 750px) {
+  .mobile-prices {
+    display: none;
+  } 
+}
+
+@media(max-width: 749px) {
+  .desktop-prices {
+    display: none;
+  }
+
+  .prices {
+    display: block;
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  } 
+
+  .item {
+    display: block;
+    width: 600px;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .service-description {
+    display: block;
+    position: relative;
+    left: 130px;
+    font-size: 20px;
+    width: 550px;
+  }
+
+  .name {
+    position: relative;
+    display: block;
+    width: 300px;
+    left: 130px;
+  } 
 }
