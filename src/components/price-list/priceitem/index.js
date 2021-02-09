@@ -5,7 +5,7 @@ const PriceItem = ({price, type}) => (
   <div className="price-block">
     <h3 className="type">{type}</h3>
     <h2 className="price">
-      {price}
+      {price+" Br"}
     </h2>
   </div>
 )

@@ -33,3 +33,20 @@
 @media(max-width: 750px) {
   
 }
+
+@media(max-width: 500px) {
+  .price {
+    font-size: 20px;
+  }
+  
+  .price-block {
+    margin: 0px 5px 5px 5px;
+    text-align: center;
+  }
+  
+  .type {
+    font-size: 20px;
+  }
+}
+
+
