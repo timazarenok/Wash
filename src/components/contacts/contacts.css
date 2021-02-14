@@ -18,3 +18,34 @@
   margin: 10px;
   display: inline-block;
 }
+
+@media(max-width: 1400px) {
+  .contacts {
+    left: 5%;
+  }
+}
+
+@media(max-width: 1250px) {
+  .contacts {
+    width: 400px;
+  }
+
+  .value{
+    width: 20px;
+  }
+}
+
+@media(max-width: 980px) {
+  .contacts {
+    left: 5%;
+    width: 350px;
+  }
+}
+
+@media(max-width: 600px) {
+  .contacts {
+    left: 2%;
+    margin-top: 60px;
+    width: 250px;
+  }
+}

@@ -7,7 +7,7 @@ import './contacts.css'
 
 const Contacts = () => (
   <div className="contacts">
-    <h2 className="contacts-header">Контакты</h2>
+    <h2 className="price-header">Контакты</h2>
     <div className="tel">
       <Telephone size={30} color="#ffe648" />
       <a href="tel: +375 (29) 605-50-04">+375 (29) 605-50-04</a>

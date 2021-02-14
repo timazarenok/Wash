@@ -3,8 +3,9 @@
   list-style: none;
   display: inline;
   float: right;
-  left: 30%;
   color: #ffe648;
+  margin: auto;
+  width: 60%;
   padding: 0;
 }
 
@@ -14,13 +15,13 @@
 
 .item {
   display: inline-block;
-  width: 900px;
+  width: 100%;
+  margin: auto  ;
   height: 150px;
 }
 
 .service-description {
   display: block;
-  width: 600px;
   font-size: 18px;
   color: #ffe648;
 }
@@ -32,19 +33,13 @@
   font-weight: bold;
 }
 
-@media(max-width: 1250px) {
-  .prices {
-    left: 0%;
-  }
-  
-  .service-description {
-    width: 300px;
-  }
-}
-
 @media(max-width: 975px) {
+  .prices {
+    width: 50%;
+  }
   .item {
-    width: 690px;
+    width: 100%;
+    margin: auto;
     height: 110px;
   }
   
@@ -73,13 +68,16 @@
     display: block;
     float: none;
     text-align: center;
+    width: 90%;
+    margin: auto;
     margin-top: 20px;
-    left: 1%;
   } 
 
   .item {
     display: block;
     height: auto;
+    width: 100%;
+    margin: auto;
     padding: 20px 0px 20px 0px;
   }
 
@@ -88,8 +86,6 @@
     position: relative;
     font-size: 20px;
     text-align: center;
-    width: 650px;
-    left: 5%;
   }
 
   .name {
@@ -100,25 +96,16 @@
   } 
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .prices {
     margin-top: 20px;
   } 
 
   .item {
-    width: 375px;
     padding: 15px 0px 15px 0px;
   }
 
-  .service-description {
-    left: 2%;
-    right: 2%;
-    width: 96%;
-  }
-
   .name {
-    width: 375px;
-    left: 0px;
     text-align: center;
   } 
 }

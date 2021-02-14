@@ -1,9 +1,10 @@
 .price-list {
   position: relative;
   list-style: none;
-  margin: 0;
+  margin: auto;
+  width: 55%;
+  padding: 0px;
   top: 50px;
-  margin-left: 200px;
   padding-bottom: 50px;
 }
 
@@ -15,12 +16,17 @@
 
 @media(max-width: 1400px) {
   .price-list {
-    margin-left: 50px;
+    width: 75%;
+  }
+  .price-list {
     top: 30px;
   }  
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 900px) {
+  .price-list {
+    width: 80%;
+  }
   .price-header {
     font-size: 32px;
   }
@@ -28,8 +34,6 @@
 
 @media(max-width: 800px) {
   .price-list {
-    margin-left: 10px;
-    padding: 0px;
     padding-bottom: 20px;
   }
   .price-header {

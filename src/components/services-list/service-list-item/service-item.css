@@ -12,6 +12,14 @@
   }
 }
 
+@media(max-width: 600px) {
+  .block { 
+    width: 160px;
+    height: 130px;
+  }
+}
+
+
 
 @media(max-width: 500px) {
   .block { 

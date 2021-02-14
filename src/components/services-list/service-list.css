@@ -1,9 +1,10 @@
 .service-list {
   position: relative;
   list-style: none;
-  width: 1200px;
-  left: 19%;
-  margin: 0px;
+  width: 60%;
+  top: 20px;
+  padding: 0;
+  margin: auto;
 }
 
 .service-list li {
@@ -21,34 +22,23 @@
   padding: 20px;
 }
 
-@media(max-width: 1400px) {
+@media(max-width: 1620px) {
   .service-list {
-    left: 10%;
     width: 1100px;
   }
 }
 
-@media(max-width: 1250px) {
-  .service-list {
-    width: 900px;
-    left: 20%;
-  }
-}
-
-@media(max-width: 1050px) {
+@media(max-width: 1200px) {
   .service-list {
     width: 700px;
-    left: 15%;
-    padding: 0px;
   }
 }
 
 @media(max-width: 850px) {
   .service-list {
-    padding: 0px;
-    width: 700px;
-    margin: 0px;
-    left: 5%;
+    padding-top: 50px;
+    top: 0px;
+    width: 90%;
   }
 
   .service-list li {
@@ -60,10 +50,18 @@
   }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .service-list {
-    width: 300px;
-    left: 10%;
+    padding-top: 50px;
+    top: 0px;
+    width: 75%;
+  }
+}
+
+@media(max-width: 550px) {
+  .service-list {
+    width: 75%;
+    height: 550px;
   }
 
   .service-list li {
@@ -73,5 +71,19 @@
   .icon {
     padding: 15px;
     width: 80px;
+  }
+}
+
+@media(max-width: 400px) {
+  .service-list {
+    width: 85%;
+    height: 500px;
+  }
+}
+
+@media(max-width: 320px) {
+  .service-list {
+    width: 94%;
+    height: 500px;
   }
 }
