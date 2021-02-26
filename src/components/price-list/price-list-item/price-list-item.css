@@ -36,6 +36,7 @@
 @media(max-width: 975px) {
   .prices {
     width: 50%;
+    bottom: 50px;
   }
   .item {
     width: 100%;
@@ -45,6 +46,7 @@
   
   .service-description {
     font-size: 13px;
+    width: 300px;
   }
   
   .name {
@@ -71,6 +73,7 @@
     width: 90%;
     margin: auto;
     margin-top: 20px;
+    bottom: 0px;
   } 
 
   .item {
@@ -86,6 +89,7 @@
     position: relative;
     font-size: 20px;
     text-align: center;
+    width: 100%;
   }
 
   .name {

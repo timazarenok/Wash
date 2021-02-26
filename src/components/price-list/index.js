@@ -1,8 +1,6 @@
 import React from "react"
 import PriceListItem from "./price-list-item"
 
-import { Element } from 'react-scroll'
-
 import data from "./info.json"
 import './price-list.css'
 

@@ -8,6 +8,12 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+@media(min-width: 899px) {
+  .mobile {
+    display: none;
+  }
+}
+
 .contacts-header {
   color: #ffe648;
   text-align: center;
@@ -40,6 +46,10 @@
     left: 5%;
     width: 350px;
   }
+}
+
+@media(max-width: 800px) {
+
 }
 
 @media(max-width: 600px) {

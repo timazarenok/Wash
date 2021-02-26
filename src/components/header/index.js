@@ -1,20 +1,9 @@
 import React, {useState} from 'react'
 import HeaderItems from './header-items'
+import {Mobile, Desktop} from '../utils'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './header.css'
-
-const Mobile = ({children}) => (
-    <span className="mobile">
-        {children}
-    </span> 
-) 
-
-const Desktop = ({children}) => (
-    <span className="desktop">
-        {children}
-    </span> 
-) 
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -33,11 +22,11 @@ const Header = () => {
                     show ? <HeaderItems changeShow={changeShow} /> : 
                     (
                         <ul className="nav navbar justify-content-center">
-                            <li className="nav-item">
-                                <button className="header-button" onClick={() => changeShow()}>
-                                    Metropol
-                                </button>
-                            </li>
+                            <button className="header-burger-button" onClick={() => changeShow()}>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </button>
                         </ul>
                     )
                 }

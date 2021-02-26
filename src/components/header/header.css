@@ -19,6 +19,20 @@
   font-weight: bold;
 }
 
+.header-burger-button {
+  border: none;
+  background-color: inherit;
+  float: right;
+}
+
+.header-burger-button div {
+  width: 30px;
+  height: 3px;
+  margin: 6px 0;
+  border-radius: 100px;
+  background-color: #ffe648;
+}
+
 .telephone,
 .telephone:hover,
 a {
@@ -66,6 +80,9 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .nav{
+    width: 100%;
+  }
   .nav-item {
     font-size: 15px;
   }

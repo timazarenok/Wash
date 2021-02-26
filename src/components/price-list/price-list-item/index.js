@@ -1,18 +1,8 @@
 import React from 'react'
 import PriceItem from '../priceitem'
+import {Mobile, Desktop} from '../../utils'
+
 import "./price-list-item.css"
-
-const Mobile = ({children}) => (
-  <div className="mobile-prices">
-    {children}
-  </div>
-) 
-
-const Desktop = ({children}) => (
-  <div className="desktop-prices">
-    {children}
-  </div>
-)
 
 const PiceListItem = ({name, description, prices}) => (
   <>
